@@ -8,4 +8,3 @@ elif human == "paper" and bot == "rock" or human == "scissors" and bot == "paper
     print("nice job you win!!!")
 else:
     print(f"sorry you lost!!! you chose {human} but the bot chose {bot}")
-
