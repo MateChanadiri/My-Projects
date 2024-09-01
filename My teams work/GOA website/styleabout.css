@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+   
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color:rgb(241, 11, 11)
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color:black
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+p {
+    color: black;
+    font-size: larger;
+
+}
+
+
+h1 {
+    text-align: center;
+    font-style:oblique
+}
+
+#pt{
+    text-align: center;
+}
+nav {
+  text-align: center;
+}
+
+
+#pt {
+  color: darkgreen;
+}
+
+h1 {
+  color: green
+}
+#header{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: rgb(97, 95, 95);
+  border-radius: 0.5rem;
+  border: 2px,black
+}
+.links {
+  cursor: pointer;
+  font-size: 50px;
+  text-decoration: none;
+  margin-right: 30px;
+  font-weight: 500;
+  color: black;
+  font-family: sans-serif;
+}
+.title {
+  color: darkgreen;
+  font-family: sans-serif;
+  font-size: 50px;
+}
+footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: gray;
+  width: 100%;
+  height: 60px
+}
+.links:hover {
+  background-color: rgb(224, 223, 223);
+  transition: 1.5s;
+  border-bottom: 3px,black,solid;
+  border-radius: 2rem;
+  margin-top: 5px;
+}
+#goa-logo {
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+  border: 4px,black;
+}
+nav {
+  margin-left: 200px;
+  margin-top: 20px
+}
+#div-footer {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+}
+footer:hover {
+  background-color: rgb(168, 166, 166);
+  transition: 2s;
+}
+.links2 {
+  margin-right: 10px;
+}
+.links2:hover {
+  border-radius: 50%;
+  border: 3px,black,solid;
+}
+#pp {
+  font-weight: 500;
+  font-size: 10px;
+  font-family: sans-serif;
+}

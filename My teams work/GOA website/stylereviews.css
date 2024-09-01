@@ -1,0 +1,117 @@
+* {
+    text-align: center;
+    
+}
+body {
+    background-image: url(images/BLACK\ CONCRETTE.webp);
+}
+#p1 {
+    padding-right: 5px;
+    padding-left: 5px;
+    color: grey
+}
+.review-people {
+    border-radius: 5%;
+    background-image: url(images/gray\ concrette.webp);
+    height: 300px;
+    width: 400px;
+    padding: 20px,10px,20px,10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.review-photos {
+    border-radius: 2rem
+}
+
+#big-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+video {
+    border-radius: 5px;
+    width: 400px;
+    height: 200px;
+}
+#header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: rgb(97, 95, 95);
+    border-radius: 0.5rem;
+    border: 2px,black
+}
+.links {
+    cursor: pointer;
+    font-size: 50px;
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: 500;
+    color: black;
+    font-family: sans-serif;
+}
+#p2 {
+    color: green
+}
+.title {
+    color: darkgreen;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+.answers {
+    color: darkgreen
+}
+footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: gray;
+    width: 100%;
+    height: 60px
+}
+.links:hover {
+    background-color: rgb(224, 223, 223);
+    transition: 1.5s;
+    border-bottom: 3px,black,solid;
+    border-radius: 2rem;
+    margin-top: 5px;
+}
+#goa-logo {
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    border: 4px,black;
+}
+.img1 {
+    width: 40px;
+    height: 40px;
+}
+nav {
+    margin-left: 200px;
+    margin-top: 20px
+}
+#div-footer {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+}
+footer:hover {
+    background-color: rgb(168, 166, 166);
+    transition: 2s;
+}
+.links2 {
+    margin-right: 10px;
+}
+.links2:hover {
+    border-radius: 50%;
+    border: 3px,black,solid;
+}
+#pp {
+    font-weight: 500;
+    font-size: 10px;
+    font-family: sans-serif;
+}

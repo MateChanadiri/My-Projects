@@ -1,0 +1,110 @@
+* {
+  text-align: center;
+  font-size: large;
+  font-family: sans-serif;
+  font-size: medium;
+  background-color: rgb(0, 0, 0)rgb(69, 71, 70)
+}
+
+.title {
+  font-size: larger;
+}
+
+p {
+  font-size: 1%;
+  font-style: italic;
+  border: solid, darkgreen, 3px;
+  border-radius: 5px;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+video, img {
+  border-radius: 2rem;
+}
+
+#one {
+  border-color: green;
+  border-style: solid;
+}
+
+#two {
+  border-color: green;
+  border-style: solid;
+}
+
+#three {
+  border-color: green;
+  border-style: solid;
+}
+
+#title {
+  border-color: green;
+  border-style: solid;
+}
+
+#header{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: rgb(97, 95, 95);
+  border-radius: 0.5rem;
+  border: 2px,black
+}
+
+.links {
+  cursor: pointer;
+  font-size: 50px;
+  text-decoration: none;
+  margin-right: 30px;
+  font-weight: 500;
+  color: black;
+  font-family: sans-serif;
+}
+.title {
+  color: darkgreen;
+  font-family: sans-serif;
+  font-size: 50px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+}
+.links:hover {
+  background-color: rgb(224, 223, 223);
+  transition: 1.5s;
+  border-bottom: 3px,black,solid;
+  border-radius: 2rem;
+  margin-top: 5px;
+}
+#goa-logo {
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+  border: 4px,black;
+}
+nav {
+  margin-left: 200px;
+  margin-top: 20px
+}
+#div-footer {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+}
+footer:hover {
+  background-color: rgb(168, 166, 166);
+  transition: 2s;
+}
+.links2:hover {
+  border-radius: 50%;
+  border: 3px,black,solid;
+}
+#pp {
+  font-weight: 500;
+  font-size: 10px;
+  font-family: sans-serif;
+}
